@@ -1,7 +1,7 @@
 ---
-title: "Title"
+title: "Factors Affecting Job Accidents"
 author: 
-  - Last Name, First Name[^1]
+  - Dilek, Melike[^1]
 bibliography: ../bibliography/biblio.bib
 csl: ../csl/apa.csl
 header-includes:
@@ -32,7 +32,7 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: Student ID, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
+[^1]: 20450586, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
 
 # Important Information About Midterm
 
@@ -45,7 +45,9 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
 # Introduction
-This outline has been created to assist you in writing your project assignment. You should cite all the sources you use, articles, presentations, projects, etc. Quoting and referencing gives readers the opportunity to access the resources you refer. **Even though you use your own words, if you are conveying the ideas of others in your work, you have to document the source of these ideas. Otherwise, you are committing academic plagiarism.** For example, you can refer to @aydinonat:2007 for academic writing rules. You can find lots of online resources on this topic.
+
+In another study aiming to determine the causes of work accidents, researchers tried to find if there was a correlation between variables such as self image of people and burnout syndrome; between the level of burnout syndrome and the severity of the professional accidents; between the level of Burnout syndrome and the level of self-esteem.
+The research has indicated the fact that the Burnout syndrome is felt by the employees, that work in a climate of economic uncertainty, many hours, taking on many responsibilities, placing their health at risk. This situation compromises their ability to contribute to the organizational goals. The imbalance between the work capacity of a person and the tasks that must be fulfilled lead to exhaustion and the Burnout Syndrome that causes work accidents.
 
 The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
 
@@ -53,8 +55,8 @@ In this section, mention the purpose and importance of your work in a few paragr
 
 ## Literature Review
 
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @chang:2013. This one is a parenthetical citation [@chang:2013]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014; @wooldridge:2015a].
 
+In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @article{10.2307/41508902}. This one is a parenthetical citation [@@10.2307/4150890:2012]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014;@ENACHE2013170:2013].
 
 
 **References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
