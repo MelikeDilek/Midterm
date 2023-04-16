@@ -1,5 +1,5 @@
 ---
-title: "Factors Affecting Job Accidents"
+title: "Human Factors in Job Accidents"
 author: 
   - Dilek, Melike[^1]
 bibliography: ../bibliography/biblio.bib
@@ -32,37 +32,14 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 <!-- ======================================================================= -->
 <!-- ============================== FOOTNOTES ============================== -->
 <!-- ======================================================================= -->
-[^1]: 20450586, [Github Repo](https://github.com/YOUR_USER_NAME_HERE/YOUR_REPO_NAME_HERE)
-
-# Important Information About Midterm
-
-\colorbox{BurntOrange}{WRITE YOUR GITHUB REPO LINK ON LINE 35 IN THIS FILE!}
-
-**Project Proposal submisson will be done by uploading a zip file to the ekampus system along with the Github repo link. If you do not upload a zip file to the system and do not provide a Github repo link, you will be deemed not to have entered the midterm and final exams.**
-
-**You must upload your project folder (`YourStudentID.zip` file) to *ekampus.ankara.edu.tr* until 16 April 2023, 23:59.**
-
-\colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
-
-
+[^1]: 20450586, [Github Repo](https://github.com/MelikeDilek/Midterm.git/MelikeDilek/Midterm)
 
 # Introduction
-In another study aiming to determine the causes of work accidents, researchers tried to find if there was a correlation between variables such as self image of people and burnout syndrome; between the level of burnout syndrome and the severity of the professional accidents; between the level of Burnout syndrome and the level of selfesteem.
-
-The research has indicated the fact that the Burnout syndrome is felt by the employees, that work in a climate of economic uncertainty, many hours, taking on many responsibilities, placing their health at risk. 
-
-This situation compromises their ability to contribute to the organizational goals. The imbalance between the work capacity of a person and the tasks that must be fulfilled lead to exhaustion and the Burnout Syndrome that causes work accidents.
-
+The pace of life is increasing day by day as a result of the rapid advancement of technology. As this fast pace shows itself also in business life, the importance of occupational safety has increased compared to previous periods. For more occupational safety, the factors that cause occupational accidents should be the subject of detailed research. These include economic, social, technological, and environmental factors. In this study, we analyzed workplace accidents with respetc to the way they occur and examined the personal factors that cause these accidents. We believe that the detailed analysis of these factors will make invaluable contributions to the knowledge of the measures that can be taken against occupational accidents. Research question: In which forms do occupational accidents occur most frequently and what are the personal factors that increase the risk of an accident?
 
 ## Literature Review
+According to the results of four different academic researches whose findings we have examined, jobs that require long hours are riskier regardless of all other factors [@Dembe588 : 2005].Long working hours create fatigue that accumulates directly or indirectly in employees, and as a result, it causes an increase in work accidents. While the risk of work accidents is generally higher for men, long working hours increase the risk of work accidents for women, while this increase is not seen in men.[@ENACHE2013170 : 2013]In another study, researchers tried to find out whether there is a relationship between burnout syndrome and the way the person perceives himself, between the intensity of the burnout syndrome and work accidents, and between the burnout syndrome and their level of self-esteem [@https://doi.org/10.1111/j.1365-2869.1995.tb00220.x : 1995]. The results of the research have shown that workers who work long hours in a life full of economic uncertainties and who are burdened with workload and/or responsibilities more than they can bear experience fatigue and burnout syndrome, and as a result, they suffer more work accidents.Between 30% and 90% of severe occupational accidents in various sectors are due to fatigue. 68% of aviation accidents are caused by fatigue-related errors of either pilots or maintenance workers. Different studies have come to very different conclusions about whether this fatigue is due to sleep disorders, so we can say that this connection requires more research [@10.2307/41508902 :2012].
 
-
-In this section, discuss the articles you have read on the subject by giving references. This is a narrative citation @article{10.2307/41508902}. This one is a parenthetical citation [@@10.2307/4150890:2012]. **Do not summarize each article individually under a separate title.** In the literature review section, **at least four** articles must be cited [@newbold:2003; @verzani:2014; @wickham:2014;@ENACHE2013170:2013].
-
-
-**References section is created automatically by Rmarkdown. There is no need to change the references section in the draft file.**
-
-**_You shouldn't delete the last 3 lines. Those lines are required for References section._**
 
 \newpage
 # References {#references}
