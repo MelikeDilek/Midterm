@@ -44,14 +44,15 @@ knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FAL
 
 \colorbox{WildStrawberry}{Read the README.md file in the project folder for more information.}
 
+
+
 # Introduction
+In another study aiming to determine the causes of work accidents, researchers tried to find if there was a correlation between variables such as self image of people and burnout syndrome; between the level of burnout syndrome and the severity of the professional accidents; between the level of Burnout syndrome and the level of selfesteem.
 
-In another study aiming to determine the causes of work accidents, researchers tried to find if there was a correlation between variables such as self image of people and burnout syndrome; between the level of burnout syndrome and the severity of the professional accidents; between the level of Burnout syndrome and the level of self-esteem.
-The research has indicated the fact that the Burnout syndrome is felt by the employees, that work in a climate of economic uncertainty, many hours, taking on many responsibilities, placing their health at risk. This situation compromises their ability to contribute to the organizational goals. The imbalance between the work capacity of a person and the tasks that must be fulfilled lead to exhaustion and the Burnout Syndrome that causes work accidents.
+The research has indicated the fact that the Burnout syndrome is felt by the employees, that work in a climate of economic uncertainty, many hours, taking on many responsibilities, placing their health at risk. 
 
-The sections in your project assignment must necessarily include the sections in this text (except the first section, of course). Apart from the sections used here, you can use different subsections. When writing your project, use this file as a draft and adapt its content to your purposes.
+This situation compromises their ability to contribute to the organizational goals. The imbalance between the work capacity of a person and the tasks that must be fulfilled lead to exhaustion and the Burnout Syndrome that causes work accidents.
 
-In this section, mention the purpose and importance of your work in a few paragraphs.
 
 ## Literature Review
 
