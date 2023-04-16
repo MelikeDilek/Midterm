@@ -1,0 +1,148 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  12pt,
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newlength{\cslentryspacingunit} % times entry-spacing
+\setlength{\cslentryspacingunit}{\parskip}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+  \let\oldpar\par
+  \def\par{\hangindent=\cslhangindent\oldpar}
+  \fi
+  % set entry spacing
+  \setlength{\parskip}{#2\cslentryspacingunit}
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+\usepackage{polyglossia}
+\setmainlanguage{english}
+\usepackage{booktabs}
+\usepackage{caption}
+\captionsetup[table]{skip=10pt}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Human Factors in Job Accidents},
+  pdfauthor={Dilek, Melike},
+  colorlinks=true,
+  linkcolor={Maroon},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Human Factors in Job Accidents}
+\author{Dilek, Melike\footnote{20450586, \href{https://github.com/MelikeDilek/Midterm.git/MelikeDilek/Midterm}{Github Repo}}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\hypertarget{introduction}{%
+\section{Introduction}\label{introduction}}
+
+The pace of life is increasing day by day as a result of the rapid advancement of technology. As this fast pace shows itself also in business life, the importance of occupational safety has increased compared to previous periods. For more occupational safety, the factors that cause occupational accidents should be the subject of detailed research. These include economic, social, technological, and environmental factors. In this study, we analyzed workplace accidents with respetc to the way they occur and examined the personal factors that cause these accidents. We believe that the detailed analysis of these factors will make invaluable contributions to the knowledge of the measures that can be taken against occupational accidents. Research question: In which forms do occupational accidents occur most frequently and what are the personal factors that increase the risk of an accident?
+
+\hypertarget{literature-review}{%
+\subsection{Literature Review}\label{literature-review}}
+
+According to the results of four different academic researches whose findings we have examined, jobs that require long hours are riskier regardless of all other factors (\protect\hyperlink{ref-Dembe588}{Dembe et al., 2005} : 2005).Long working hours create fatigue that accumulates directly or indirectly in employees, and as a result, it causes an increase in work accidents. While the risk of work accidents is generally higher for men, long working hours increase the risk of work accidents for women, while this increase is not seen in men.(\protect\hyperlink{ref-ENACHE2013170}{Enache, 2013} : 2013)In another study, researchers tried to find out whether there is a relationship between burnout syndrome and the way the person perceives himself, between the intensity of the burnout syndrome and work accidents, and between the burnout syndrome and their level of self-esteem (\protect\hyperlink{ref-https:ux2fux2fdoi.orgux2f10.1111ux2fj.1365-2869.1995.tb00220.x}{DINGES, 1995} : 1995). The results of the research have shown that workers who work long hours in a life full of economic uncertainties and who are burdened with workload and/or responsibilities more than they can bear experience fatigue and burnout syndrome, and as a result, they suffer more work accidents.Between 30\% and 90\% of severe occupational accidents in various sectors are due to fatigue. 68\% of aviation accidents are caused by fatigue-related errors of either pilots or maintenance workers. Different studies have come to very different conclusions about whether this fatigue is due to sleep disorders, so we can say that this connection requires more research (\protect\hyperlink{ref-10.2307ux2f41508902}{Wirtz et al., 2012, p. :2012}).
+
+\newpage
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\hypertarget{refs}{}
+\begin{CSLReferences}{1}{0}
+\leavevmode\vadjust pre{\hypertarget{ref-Dembe588}{}}%
+Dembe, A. E., Erickson, J. B., Delbos, R. G., \& Banks, S. M. (2005). The impact of overtime and long work hours on occupational injuries and illnesses: New evidence from the united states. \emph{Occupational and Environmental Medicine}, \emph{62}(9), 588--597. \url{https://doi.org/10.1136/oem.2004.016667}
+
+\leavevmode\vadjust pre{\hypertarget{ref-https:ux2fux2fdoi.orgux2f10.1111ux2fj.1365-2869.1995.tb00220.x}{}}%
+DINGES, D. F. (1995). An overview of sleepiness and accidents. \emph{Journal of Sleep Research}, \emph{4}(s2), 4--14. https://doi.org/\url{https://doi.org/10.1111/j.1365-2869.1995.tb00220.x}
+
+\leavevmode\vadjust pre{\hypertarget{ref-ENACHE2013170}{}}%
+Enache, R. G. (2013). Burnout syndrome and work accidents. \emph{Procedia - Social and Behavioral Sciences}, \emph{78}, 170--174. https://doi.org/\url{https://doi.org/10.1016/j.sbspro.2013.04.273}
+
+\leavevmode\vadjust pre{\hypertarget{ref-10.2307ux2f41508902}{}}%
+Wirtz, A., Lombardi, D. A., Willetts, J. L., Folkard, S., \& Christiani, D. C. (2012). Gender differences in the effect of weekly working hours on occupational injury risk in the united states working population. \emph{Scandinavian Journal of Work, Environment \& Health}, \emph{38}(4), 349--357. \url{http://www.jstor.org/stable/41508902}
+
+\end{CSLReferences}
+
+\end{document}
